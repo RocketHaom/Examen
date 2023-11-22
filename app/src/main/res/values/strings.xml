@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="contentDescription">Content Description</string>
+    --LogIn(MainActivity)--
+    <string name="logInUserEmailHint">Correo</string>
+    <string name="logInUserPasswordHint">Contraseña</string>
+    <string name="logInButton">Iniciar sesión</string>
+    <string name="logInSignUpButton">Registrarse</string>
+    --SignUp(activity_SignUp)--
+    <string name="SignUpUsernameHint">Nombre de usuario</string>
+    <string name="SignUpEmailHint">Correo electrónico</string>
+    <string name="SignUpPasswordHint">Contraseña</string>
+    <string name="SignUpConfirmPasswordHint">Confirme contraseña</string>
+    <string name="SignUpCreateAccountButton">Crear cuenta</string>
+    --Productos(activity_productos)--
+    <string name="bntAddProducto">Añadir producto</string>
+    --Añadir Productos (add_producto)--
+    <string name="btnCreateProducto">Registrar producto</string>
+    <string name="btnCancelCreateProducto">Cancelar</string>
+    <string name="txtCreateIDProd">ID del producto</string>
+    <string name="txtCreateNameProd">Nombre del producto</string>
+    <string name="txtCreateDescProd">Descripción del producto</string>
+    <string name="txtCreateQuantity">Cantidad</string>
+    --Editar Productos (edit_producto)--
+    <string name="btnEditProducto">Editar producto</string>
+    <string name="btnCancelEditCreateProducto">Cancelar</string>
+    <string name="txtEditIDProd">ID del producto existente</string>
+    <string name="txtEditNameProd">Nombre del producto existente</string>
+    <string name="txtEditCantidadProd">Cantidad</string>
+    <string name="txtEditImgUrlProd">Url de imágen</string>
+    --item--
+    <string name="txtItemID">ID producto</string>
+    <string name="txtItemName">Nombre producto</string>
+    <string name="btnItemEdit">Editar producto</string>
+    <string name="btnItemDelete">Eliminar producto</string>
+</resources>

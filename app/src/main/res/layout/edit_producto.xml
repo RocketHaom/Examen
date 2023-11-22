@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="233dp"
+        android:layout_height="215dp"
+        android:contentDescription="@string/contentDescription"
+        app:layout_constraintBottom_toTopOf="@+id/txtEditIDProd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449"
+        app:srcCompat="@drawable/subir" />
+
+    <EditText
+        android:id="@+id/txtEditIDProd"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:autofillHints="username"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/txtEditIDProd"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtEditNameProd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtEditNameProd"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:autofillHints="name"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/txtEditNameProd"
+        android:inputType="text"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtEditCantidadProd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtEditCantidadProd"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:autofillHints="name"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/txtEditCantidadProd"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/actualizarImagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/actualizarImagen"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:autofillHints="name"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/txtEditImgUrlProd"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btnEditProd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnEditProd"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#000000"
+        android:text="@string/btnEditProducto"
+        app:layout_constraintBottom_toTopOf="@+id/btnCancelEditProd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnCancelEditProd"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/btnCancelEditCreateProducto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

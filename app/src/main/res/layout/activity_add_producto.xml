@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtNewURL"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:autofillHints="name"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/txtEditImgUrlProd"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="233dp"
+        android:layout_height="215dp"
+        android:contentDescription="@string/contentDescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/subir" />
+
+    <EditText
+        android:id="@+id/txtNewIDProd"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:autofillHints="username"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/txtCreateIDProd"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtNewNameProd"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:autofillHints="name"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/txtCreateNameProd"
+        android:inputType="text"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtNewCantidad"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="quantity"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/txtCreateQuantity"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnCreateProd"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#000000"
+        android:text="@string/btnCreateProducto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnCancelCreateProd"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/btnCancelCreateProducto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
